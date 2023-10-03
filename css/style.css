@@ -91,12 +91,15 @@ main{
     header .container-header ul{
         width: 500px;
     }
-    
-    header .container-header ul li a:hover{
-        color:black;
-    }
 
     main{
         flex-direction: column;
+    }
+}
+
+/* Extra small devices */
+@media (min-width:481px) and (max-width:797px){
+    header .container-header ul{
+        width: 300px;
     }
 }
