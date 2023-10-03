@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Principal */
+.container{
+    max-width: 800px;
+    margin:0 auto;
+    border: 1px solid black;
+    background:white ;
+}
+
+header{
+    width: 100%;
+    background-color: #D9563F;
+    align-items: center;
+    border-bottom:3px solid gray;
+}
+
+header .container-header{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+header .container-header ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    width: 900px;
+    height: 50px;
+}
+
+header .container-header ul li{
+    padding-top: 15px;
+}
+
+header .container-header ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+header .container-header ul li a:hover{
+    color:black;
+}
+
+main{
+    display: flex;
+    padding:10px;
+    margin:0 auto;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+#login{
+    width: 200px;
+    padding:10px;
+    text-align: center;
+}
+
+#login .inputs{
+    border-color:#D9563F;
+    height: 30px;
+    padding-left:5px;
+}
+
+#campoLogin{
+    margin-bottom:10px;
+}
+
+#campoSenha{
+    margin-bottom:10px;
+}
+
+#botao{
+    background-color:white;
+    color:#D9563F;
+    border-color:#D9563F;
+    padding:5px;
+    cursor: pointer;
+}
+
+#botao:hover{
+    background-color: #f7e5e5;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px){
+
+}
